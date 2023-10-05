@@ -123,6 +123,14 @@
   <ItemGroup>
     <Compile Include="BorderMarkup.cs" />
     <Compile Include="CaptureElementMarkup.cs" />
+    <Compile Include="ColumnDefinitionMarkup.cs" />
+    <Compile Include="ContentControlMarkup.cs" />
+    <Compile Include="ContentDialogMarkup.cs" />
+    <Compile Include="ContentPresenterMarkup.cs" />
+    <Compile Include="ControlMarkup.cs" />
+    <Compile Include="FlipViewMarkup.cs" />
+    <Compile Include="FrameworkElementMarkup.cs" />
+    <Compile Include="GridMarkup.cs" />
     <Compile Include="Helper\GridHelper.cs" />
     <Compile Include="IconElement\BitmapIconMarkup.cs" />
     <Compile Include="IconElement\FontIconMarkup.cs" />
@@ -130,6 +138,7 @@
     <Compile Include="IconElement\IconSourceElementMarkup.cs" />
     <Compile Include="IconElement\PathIconMarkup.cs" />
     <Compile Include="IconElement\SymbolIconMarkup.cs" />
+    <Compile Include="InfoBarMarkup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Transition\ContentThemeTransitionMarkup.cs" />
     <Compile Include="Transition\EdgeUIThemeTransitionMarkup.cs" />
@@ -148,6 +157,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.UI.Xaml">
+      <Version>2.7.0</Version>
     </PackageReference>
     <PackageReference Include="PolySharp">
       <Version>1.13.2</Version>
