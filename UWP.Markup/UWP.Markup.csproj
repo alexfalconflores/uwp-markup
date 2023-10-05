@@ -121,7 +121,28 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BorderMarkup.cs" />
+    <Compile Include="CaptureElementMarkup.cs" />
+    <Compile Include="Helper\GridHelper.cs" />
+    <Compile Include="IconElement\BitmapIconMarkup.cs" />
+    <Compile Include="IconElement\FontIconMarkup.cs" />
+    <Compile Include="IconElement\IconElementMarkup.cs" />
+    <Compile Include="IconElement\IconSourceElementMarkup.cs" />
+    <Compile Include="IconElement\PathIconMarkup.cs" />
+    <Compile Include="IconElement\SymbolIconMarkup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transition\ContentThemeTransitionMarkup.cs" />
+    <Compile Include="Transition\EdgeUIThemeTransitionMarkup.cs" />
+    <Compile Include="Transition\EntranceThemeTransitionMarkup.cs" />
+    <Compile Include="Transition\NavigationThemeTransitionMarkup.cs" />
+    <Compile Include="Transition\PaneThemeTransitionMarkup.cs" />
+    <Compile Include="Transition\PopupThemeTransitionMarkup.cs" />
+    <Compile Include="Transition\RepositionThemeTransitionMarkup.cs" />
+    <Compile Include="Transition\TransitionCollectionMarkup.cs" />
+    <Compile Include="VirtualizingPanel\CarouselPanelMarkup.cs" />
+    <Compile Include="VirtualizingPanel\OrientedVirtualizingPanelMarkup.cs" />
+    <Compile Include="VirtualizingPanel\VirtualizingStackPanelMarkup.cs" />
+    <Compile Include="VirtualizingPanel\WrapGridMarkup.cs" />
     <EmbeddedResource Include="Properties\UWP.Markup.rd.xml" />
   </ItemGroup>
   <ItemGroup>
