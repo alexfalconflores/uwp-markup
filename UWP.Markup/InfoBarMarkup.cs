@@ -1,6 +1,5 @@
 ﻿using System.Windows.Input;
 using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
