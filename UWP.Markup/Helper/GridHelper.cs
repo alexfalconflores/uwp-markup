@@ -5,6 +5,19 @@ namespace UWP.Markup.Helper;
 
 public static class GridHelper
 {
+    /// <summary>
+    /// Convert <see cref="string"/> to <see cref="GridLength"/>. The default value is <see cref="GridLength.Auto"/>.
+    /// <example>
+    /// <code>
+    /// GridLength width = GridHelper.StringToGridLength("Auto"); // Auto
+    /// GridLength width = GridHelper.StringToGridLength("*"); // 1*
+    /// GridLength width = GridHelper.StringToGridLength("2*"); // 2*
+    /// GridLength width = GridHelper.StringToGridLength("100"); // 100
+    /// </code>
+    /// </example>
+    /// </summary>
+    /// <param name="value"></param>
+    /// <returns><see cref="GridLength"/></returns>
     public static GridLength StringToGridLength(string value)
     {
         return value switch
