@@ -15,7 +15,7 @@
 		</description>
 		<releaseNotes>Added some controls, check documentation</releaseNotes>
 		<copyright>Copyright 2023</copyright>
-		<tags>UWP Markup csharp fluent winui xaml universal windows helper transition icon</tags>
+		<tags>uwp markup csharp fluent winui xaml universal windows helper transition icon</tags>
 	</metadata>
 	<files>
 		<file src="Assets\icon.png" target="Assets\"/>
