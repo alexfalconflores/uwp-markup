@@ -434,7 +434,7 @@ public static class ControlMarkup
     /// <param name="element"></param>
     /// <param name="backgroundSizing"></param>
     /// <returns>The <see cref="Control"/> instance for method chaining</returns>
-    public static T GetTBackgroundSizing<T>(this T element, BackgroundSizing backgroundSizing) where T : Control
+    public static T BackgroundSizing<T>(this T element, BackgroundSizing backgroundSizing) where T : Control
     {
         element.BackgroundSizing = backgroundSizing;
         return element;
