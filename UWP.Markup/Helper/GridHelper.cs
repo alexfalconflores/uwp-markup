@@ -10,7 +10,7 @@ namespace UWP.Markup.Helper;
 public static class GridHelper
 {
     /// <summary>
-    /// Convert <see cref="string"/> to <see cref="GridLength"/>. The default value is <see cref="GridLength.Auto"/>.
+    /// Convert <see cref="string"/> to GridLength. The default value is GridLength.Auto.
     /// <example>
     /// <code>
     /// GridLength width = GridHelper.StringToGridLength("Auto"); // Auto
@@ -21,7 +21,7 @@ public static class GridHelper
     /// </example>
     /// </summary>
     /// <param name="value"></param>
-    /// <returns><see cref="GridLength"/></returns>
+    /// <returns>GridLength value</returns>
     public static GridLength StringToGridLength(string value)
     {
         return value switch

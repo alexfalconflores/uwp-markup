@@ -22,7 +22,7 @@ public static class IconElementMarkup
     }
 
     /// <summary>
-    /// Sets a <see cref="Color"/> that describes the foreground color.
+    /// Sets a Color that describes the foreground color.
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>

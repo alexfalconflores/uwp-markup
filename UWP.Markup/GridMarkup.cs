@@ -160,6 +160,7 @@ public static class GridMarkup
     /// <summary>
     /// Sets the radius for the corners of the panel's border.
     /// The default is 0.
+    /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
     /// <param name="cornerRadius"></param>
@@ -173,6 +174,7 @@ public static class GridMarkup
     /// <summary>
     /// Sets the radius for the corners of the panel's border.
     /// The default is topLeftRight: 0, bottomRightLeft: 0.
+    /// </summary>  
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
     /// <param name="topLeftRight"></param>
