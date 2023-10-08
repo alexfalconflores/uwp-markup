@@ -5,6 +5,9 @@ using Windows.UI;
 
 namespace UWP.Markup;
 
+/// <summary>
+/// Defines the extension methods for the <see cref="RelativePanel"/> class.
+/// </summary>
 public static class RelativePanelMarkup
 {
     /// <summary>
@@ -96,7 +99,10 @@ public static class RelativePanelMarkup
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="left"></param>
+    /// <param name="top"></param>
+    /// <param name="right"></param>
+    /// <param name="bottom"></param>
     /// <returns>The <see cref="RelativePanel"/> instance for method chaining</returns>
     public static T Padding<T>(this T element, double left = 0, double top = 0, double right = 0, double bottom = 0) where T : RelativePanel
     {
@@ -109,7 +115,8 @@ public static class RelativePanelMarkup
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="horizontal"></param>
+    /// <param name="vertical"></param>
     /// <returns>The <see cref="RelativePanel"/> instance for method chaining</returns>
     public static T Padding<T>(this T element, double horizontal = 0, double vertical = 0) where T : RelativePanel
     {
@@ -120,6 +127,7 @@ public static class RelativePanelMarkup
     /// <summary>
     /// Sets the radius for the corners of the panel's border.
     /// The default is 0.
+    /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
     /// <param name="cornerRadius"></param>
@@ -133,6 +141,7 @@ public static class RelativePanelMarkup
     /// <summary>
     /// Sets the radius for the corners of the panel's border.
     /// The default is topLeftRight: 0, bottomRightLeft: 0.
+    /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
     /// <param name="topLeftRight"></param>

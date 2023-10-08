@@ -2,6 +2,9 @@
 
 namespace UWP.Markup;
 
+/// <summary>
+/// Defines the extension methods for the <see cref="Selector"/> class.
+/// </summary>
 public static class SelectorMarkup
 {
     /// <summary>

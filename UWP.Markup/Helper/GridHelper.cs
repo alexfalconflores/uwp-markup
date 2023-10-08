@@ -1,8 +1,12 @@
 ﻿using System;
 using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
 
 namespace UWP.Markup.Helper;
 
+/// <summary>
+/// Helper class for <see cref="Grid"/>.
+/// </summary>
 public static class GridHelper
 {
     /// <summary>

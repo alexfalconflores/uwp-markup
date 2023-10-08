@@ -6,6 +6,9 @@ using Windows.UI;
 
 namespace UWP.Markup;
 
+/// <summary>
+/// Defines the extension methods for the <see cref="Grid"/> class.
+/// </summary>
 public static class GridMarkup
 {
     /// <summary>
@@ -129,7 +132,10 @@ public static class GridMarkup
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="left"></param>
+    /// <param name="top"></param>
+    /// <param name="right"></param>
+    /// <param name="bottom"></param>
     /// <returns>The <see cref="Grid"/> instance for method chaining</returns>
     public static T Padding<T>(this T element, double left = 0, double top = 0, double right = 0, double bottom = 0) where T : Grid
     {
@@ -142,7 +148,8 @@ public static class GridMarkup
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="horizontal"></param>
+    /// <param name="vertical"></param>
     /// <returns>The <see cref="Grid"/> instance for method chaining</returns>
     public static T Padding<T>(this T element, double horizontal = 0, double vertical = 0) where T : Grid
     {
@@ -259,7 +266,7 @@ public static class GridMarkup
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
-    /// <param name="rowSpacing"></param>
+    /// <param name="spacing"></param>
     /// <returns>The <see cref="Grid"/> instance for method chaining</returns>
     public static T Spacing<T>(this T element, double spacing) where T : Grid
     {
@@ -277,6 +284,7 @@ public static class GridMarkup
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
     /// <param name="rowSpacing"></param>
+    /// <param name="columnSpacing"></param>
     /// <returns>The <see cref="Grid"/> instance for method chaining</returns>
     public static T Spacing<T>(this T element, double rowSpacing, double columnSpacing) where T : Grid
     {

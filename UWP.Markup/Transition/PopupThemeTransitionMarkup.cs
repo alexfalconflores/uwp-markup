@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Windows.UI.Xaml.Media.Animation;
+﻿using Windows.UI.Xaml.Media.Animation;
 
 namespace UWP.Markup.Transition;
 
@@ -16,7 +11,7 @@ public static class PopupThemeTransitionMarkup
     /// Sets the distance by which the target is translated in the horizontal direction when the animation is active.
     /// </summary>
     /// <param name="transition"></param>
-    /// <param name="fromVerticalOffset"></param>
+    /// <param name="fromHorizontalOffset"></param>
     /// <returns>The <see cref="PopupThemeTransition"/> instance for method chaining.</returns>
     public static PopupThemeTransition FromHorizontalOffset(this PopupThemeTransition transition, double fromHorizontalOffset)
     {

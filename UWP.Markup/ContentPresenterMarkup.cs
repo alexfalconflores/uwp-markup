@@ -443,7 +443,10 @@ public static class ContentPresenterMarkup
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="left"></param>
+    /// <param name="top"></param>
+    /// <param name="right"></param>
+    /// <param name="bottom"></param>
     /// <returns>The <see cref="ContentPresenter"/> instance for method chaining</returns>
     public static T Padding<T>(this T element, double left = 0, double top = 0, double right = 0, double bottom = 0) where T : ContentPresenter
     {
@@ -456,7 +459,8 @@ public static class ContentPresenterMarkup
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="horizontal"></param>
+    /// <param name="vertical"></param>
     /// <returns>The <see cref="ContentPresenter"/> instance for method chaining</returns>
     public static T Padding<T>(this T element, double horizontal = 0, double vertical = 0) where T : ContentPresenter
     {
@@ -467,6 +471,7 @@ public static class ContentPresenterMarkup
     /// <summary>
     /// Sets the radius for the corners of the content presenter's border.
     /// The default is 0.
+    /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
     /// <param name="cornerRadius"></param>
@@ -480,6 +485,7 @@ public static class ContentPresenterMarkup
     /// <summary>
     /// Sets the radius for the corners of the content presenter's border.
     /// The default is topLeftRight: 0, bottomRightLeft: 0.
+    /// </summary>  
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
     /// <param name="topLeftRight"></param>

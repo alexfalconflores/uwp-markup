@@ -121,7 +121,8 @@ public static class PopupMarkup
     /// the left side of the popup.
     /// </summary>
     /// <param name="popup"></param>
-    /// <param name="offset"></param>
+    /// <param name="horizontal"></param>
+    /// <param name="vertical"></param>
     /// <returns>The <see cref="Popup"/> instance for method chaining</returns>
     public static Popup Offset(this Popup popup, double horizontal = 0, double vertical = 0)
     {

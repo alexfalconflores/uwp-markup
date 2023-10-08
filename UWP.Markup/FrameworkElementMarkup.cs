@@ -376,7 +376,7 @@ public static class FrameworkElementMarkup
     /// value is **Stretch**.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    /// <param name="e"></param>
+    /// <param name="element"></param>
     /// <param name="verticalAlignment"></param>
     /// <param name="horizontalAlignment"></param>
     /// <returns>The <see cref="FrameworkElement"/> instance for method chaining</returns>
@@ -407,8 +407,7 @@ public static class FrameworkElementMarkup
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
-    /// <param name="horizontal"></param>
-    /// <param name="vertical"></param>
+    /// <param name="margin"></param>
     /// <returns>The <see cref="FrameworkElement"/> instance for method chaining</returns>
     public static T Margin<T>(this T element, double margin = 0) where T : FrameworkElement
     {

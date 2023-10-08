@@ -116,7 +116,7 @@ public static class ItemsWrapGridMarkup
     /// Sets the amount of space around a group. The default value is 0.
     /// </summary>
     /// <param name="element"></param>
-    /// <param name="padding"></param>
+    /// <param name="groupPadding"></param>
     /// <returns>The <see cref="ItemsWrapGrid"/> instance for method chaining</returns>
     public static ItemsWrapGrid GroupPadding(this ItemsWrapGrid element, double groupPadding = 0)
     {
@@ -128,7 +128,10 @@ public static class ItemsWrapGridMarkup
     /// Sets the amount of space around a group. The default value is left: 0, top: 0, right: 0, bottom: 0.
     /// </summary>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="left"></param>
+    /// <param name="top"></param>
+    /// <param name="right"></param>
+    /// <param name="bottom"></param>
     /// <returns>The <see cref="ItemsWrapGrid"/> instance for method chaining</returns>
     public static ItemsWrapGrid GroupPadding(this ItemsWrapGrid element, double left = 0, double top = 0, double right = 0, double bottom = 0)
     {
@@ -140,7 +143,8 @@ public static class ItemsWrapGridMarkup
     /// Sets the amount of space around a group. The default value is horizontal: 0, vertical: 0.
     /// </summary>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="horizontal"></param>
+    /// <param name="vertical"></param>
     /// <returns>The <see cref="ItemsWrapGrid"/> instance for method chaining</returns>
     public static ItemsWrapGrid GroupPadding(this ItemsWrapGrid element, double horizontal = 0, double vertical = 0)
     {

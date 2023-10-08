@@ -4,6 +4,9 @@ using Windows.UI.Xaml;
 
 namespace UWP.Markup;
 
+/// <summary>
+/// Defines the extension methods for the <see cref="UserControl"/> class.
+/// </summary>
 public static class UserControlMarkup
 {
     /// <summary>

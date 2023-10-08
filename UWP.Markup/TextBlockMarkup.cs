@@ -7,6 +7,9 @@ using Windows.UI;
 
 namespace UWP.Markup;
 
+/// <summary>
+/// Defines the extension methods for the <see cref="TextBlock"/> class.
+/// </summary>
 public static class TextBlockMarkup
 {
     /// <summary>
@@ -356,7 +359,10 @@ public static class TextBlockMarkup
     /// The default value is left: 0, top: 0, right: 0, bottom: 0.
     /// </summary>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="left"></param>
+    /// <param name="top"></param>
+    /// <param name="right"></param>
+    /// <param name="bottom"></param>
     /// <returns>The <see cref="TextBlock"/> instance for method chaining</returns>
     public static TextBlock Padding(this TextBlock element, double left = 0, double top = 0, double right = 0, double bottom = 0)
     {
@@ -370,7 +376,8 @@ public static class TextBlockMarkup
     /// The default value is horizontal: 0, vertical: 0.
     /// </summary>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="horizontal"></param>
+    /// <param name="vertical"></param>
     /// <returns>The <see cref="TextBlock"/> instance for method chaining</returns>
     public static TextBlock Padding(this TextBlock element, double horizontal = 0, double vertical = 0)
     {
@@ -385,7 +392,7 @@ public static class TextBlockMarkup
     /// theme) or White (for **Dark** theme) for a TextBlock element in UI.
     /// </summary>
     /// <param name="element"></param>
-    /// <param name="brush"></param>
+    /// <param name="color"></param>
     /// <returns>The <see cref="TextBlock"/> instance for method chaining</returns>
     public static TextBlock Foreground(this TextBlock element, Color color)
     {

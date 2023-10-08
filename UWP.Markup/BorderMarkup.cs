@@ -6,12 +6,14 @@ using Windows.UI;
 
 namespace UWP.Markup;
 
+/// <summary>
+/// Defines the extension methods for the <see cref="Border"/> class.
+/// </summary>
 public static class BorderMarkup
 {
     /// <summary>
     /// Sets the distance between the border and its child object.
     /// </summary>
-    /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
     /// <param name="thickness"></param>
     /// <returns>The <see cref="Border"/> instance for method chaining</returns>
@@ -24,7 +26,6 @@ public static class BorderMarkup
     /// <summary>
     /// Sets the radius for the corners of the border.
     /// </summary>
-    /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
     /// <param name="cornerRadius"></param>
     /// <returns>The <see cref="Border"/> instance for method chaining</returns>
@@ -119,7 +120,6 @@ public static class BorderMarkup
     /// <item> Windows version: 1809, SDK version 17763 </item>
     /// </list>
     /// </summary>
-    /// <typeparam name="T"></typeparam>
     /// <param name="element"></param>
     /// <param name="backgroundSizing"></param>
     /// <returns>The <see cref="Border"/> instance for method chaining</returns>
@@ -146,7 +146,10 @@ public static class BorderMarkup
     /// Sets the distance between the border and its child object. The default value is left: 0, top: 0, right: 0, bottom: 0.
     /// </summary>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="left"></param>
+    /// <param name="top"></param>
+    /// <param name="right"></param>
+    /// <param name="bottom"></param>
     /// <returns>The <see cref="Border"/> instance for method chaining</returns>
     public static Border Padding(this Border element, double left = 0, double top = 0, double right = 0, double bottom = 0)
     {
@@ -158,7 +161,8 @@ public static class BorderMarkup
     /// Sets the distance between the border and its child object. The default value is horizontal: 0, vertical: 0.
     /// </summary>
     /// <param name="element"></param>
-    /// <param name="thickness"></param>
+    /// <param name="horizontal"></param>
+    /// <param name="vertical"></param>
     /// <returns>The <see cref="Border"/> instance for method chaining</returns>
     public static Border Padding(this Border element, double horizontal = 0, double vertical = 0)
     {
@@ -169,6 +173,7 @@ public static class BorderMarkup
     /// <summary>
     /// Sets the radius for the corners of the border.
     /// The default is 0.
+    /// </summary>  
     /// <param name="element"></param>
     /// <param name="cornerRadius"></param>
     /// <returns>The <see cref="Border"/> instance for method chaining</returns>
@@ -181,6 +186,7 @@ public static class BorderMarkup
     /// <summary>
     /// Sets the radius for the corners of the border.
     /// The default is topLeftRight: 0, bottomRightLeft: 0.
+    /// </summary>
     /// <param name="element"></param>
     /// <param name="topLeftRight"></param>
     /// <param name="bottomRightLeft"></param>
