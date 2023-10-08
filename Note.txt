@@ -1,0 +1,5 @@
+Este paquete lo compilo en Debug and Release.
+
+y uso el siguiente codigo para llamarlo:
+
+nuget pack 
