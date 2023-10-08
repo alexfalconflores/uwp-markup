@@ -11,12 +11,14 @@
 		<readme>Docs/readme.md</readme>
 		<projectUrl>https://github.com/alexfalconflores/uwp-markup</projectUrl>
 		<description>
-			Applies the Fluent design pattern to WinUI controls to create interfaces
-			in a more expressive and readable way. Uses method chaining in the control class for cleaner,
-			more readable code.
+			Applies the Fluent design pattern to WinUI controls to create interfaces in a more expressive and readable way. Uses method chaining in the control class for cleaner, more readable code.
 		</description>
 		<releaseNotes>Added some controls, check documentation</releaseNotes>
 		<copyright>Copyright 2023</copyright>
 		<tags>UWP Markup csharp fluent winui xaml universal windows helper transition icon</tags>
 	</metadata>
+	<files>
+		<file src="Assets\icon.png" target="Assets\"/>
+		<file src="Docs\readme.md" target="Docs\"/>
+	</files>
 </package>
