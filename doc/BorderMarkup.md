@@ -25,10 +25,10 @@ var value2 = new Border()
 ### Padding (double padding)
 Sets the distance between the border and its child object. The default value is `0`.
 
-### Padding (double horizontalOffset, double left, double top, double right, double bottom)
+### Padding (double left, double top, double right, double bottom)
 Sets the distance between the border and its child object. The default value is `left: 0, top: 0, right: 0, bottom: 0`.
 
-### Padding (double horizontalOffset, double horizontal, double vertical)
+### Padding (double horizontal, double vertical)
 Sets the distance between the border and its child object. The default value is `horizontal: 0, vertical: 0`.
 
 ### CornerRadius (double cornerRadius)
